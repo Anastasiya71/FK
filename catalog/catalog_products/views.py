@@ -103,13 +103,3 @@ class Task4ViewSet(APIView):
             products_value = ', '.join(value)
             result.append(f'{key} - {products_value}')
         return JsonResponse(result, safe=False)
-
-
-
-
-
-
-            
-
-
-       
