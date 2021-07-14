@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'debug_toolbar',
     'rest_framework',
     'catalog_products.apps.CatalogProductsConfig',
-    'mptt',
 ]
 
 MIDDLEWARE = [
